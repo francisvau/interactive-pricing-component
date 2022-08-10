@@ -1,4 +1,4 @@
-import './App.css';
+import './css/App.min.css';
 import Header from './components/Header.js'
 
 function App() {
