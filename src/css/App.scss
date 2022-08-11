@@ -70,6 +70,36 @@ body {
                     }
                 }
             }
+
+            .money-slider--slider {
+                display: flex;
+                justify-content: center;
+                margin-top: 30px;
+                
+                input {
+                    width: 80%;
+                    background: hsl(224, 26%, 83%);
+                    height: 10px;
+                    border-radius: 30px;
+                }
+                  
+                input::-moz-range-thumb {
+                    width: 25px;
+                    height: 25px;
+                    background: #29e691;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    &:hover {
+                        box-shadow: 0 5px 10px darken(#29e691, 20%);
+                    }
+                }
+
+                input::-moz-range-progress {
+                    height: 10px;
+                    border-radius: 30px;
+                    background-color: #29e691;
+                }
+            }
         }
     }
 }

@@ -9,6 +9,10 @@ const MoneySlider = () => {
                 <p>/month</p>
             </span>
         </div>
+
+        <div className="money-slider--slider">
+            <input type="range" min="1" max="100" />
+        </div>
     </div>
   )
 }
