@@ -1,9 +1,13 @@
 import './css/App.min.css';
 import Header from './components/Header.js'
+import Pricecard from './components/Pricecard.js'
 
 function App() {
   return (
-    <Header />
+    <div className='app'>
+      <Header />
+      <Pricecard />
+    </div>
   );
 }
 
